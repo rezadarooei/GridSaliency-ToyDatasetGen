@@ -8,7 +8,7 @@ from os import listdir
 from os.path import join
 from PIL import Image
 from skimage.transform import resize
-from keras.datasets import mnist
+from tensorflow.keras.datasets import mnist
 
 mnist_random = None
 
